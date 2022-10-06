@@ -1,0 +1,175 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 16px;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: Verdana, sans-serif;
+}
+
+.header {
+	margin-bottom: 1.9rem;
+	width: 100%;
+	height: 4.2rem;
+	background-color: #339af0;
+}
+
+.my-hs-list {
+	list-style: initial;
+}
+
+.my-hs-item::marker {
+	color: #339af0;
+	background-color: #339af0;
+}
+
+.nav {
+	min-height: 4.2rem;
+}
+
+.nav-link {
+	padding: 0;
+	cursor: pointer;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1rem;
+	border-bottom: 0.15rem solid #339af0;;
+	transition: 0.1s ease-in;
+}
+
+.nav-link:hover {
+	color: #fff;
+	border-bottom: 0.15rem solid #fff;
+}
+
+.nav-list {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0;
+	list-style: none;
+	padding: 0;
+}
+
+.hello-text {
+	text-align: center;
+}
+
+.gray-p {
+	margin: 0.8rem;	
+}
+
+.gray {
+	padding: 0.6rem;
+	margin-bottom: 1.9rem;
+	border-radius: 1.25rem;
+	font-size: 1.1rem;
+	background-color: #dee2e6;
+}
+
+.me-photo-block {
+	overflow: hidden;
+	padding: 0;
+	margin-bottom: 1rem;
+	border-radius: 1.25rem;
+}
+
+.me-photo {
+	max-width: 100%;
+}
+
+.figcaption {
+	text-align: center;
+	font-size: 1.1rem;
+}
+
+.null-padding {
+	padding: 0;
+}
+
+.me-figure {
+	margin-bottom: 1.9rem;
+}
+
+.section-title {
+	text-align: center;
+	margin-bottom: 1.9rem;
+}
+
+.my-hs {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 1.9rem;
+	font-size: 1.1rem;
+}
+
+.my-pro {
+	margin-bottom: 1.9rem;
+}
+
+.contacts-p {
+	margin-bottom: 1.5rem;
+	text-align: center;
+	font-size: 1.1rem;
+}
+
+.social-row {
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 1.9rem;
+}
+
+.soc-link {
+	display: block;
+}
+
+.soc-img {
+	display: block;
+	width: 3rem;
+}
+
+@media (max-width: 1920px) {
+	.container {
+		margin: 0 auto;
+		max-width: 100%;
+		width: 60%;
+	}
+}
+
+@media (max-width: 1500px) {
+	.container {
+		margin: 0 auto;
+		max-width: 100%;
+		width: 70%;
+	}
+}
+
+@media (max-width: 1250px) {
+	.container {
+		margin: 0 auto;
+		max-width: 100%;
+		width: 80%;
+	}
+}
+
+@media (max-width: 1000px) {
+	.container {
+		margin: 0 auto;
+		max-width: 100%;
+		width: 85%;
+	}
+}
+
+@media (max-width: 430px) {
+	.container {
+		margin: 0 auto;
+		max-width: 100%;
+		width: 90%;
+	}
+}
